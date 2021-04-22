@@ -1,0 +1,156 @@
+@media screen and (max-width: 1366px) {
+    .container {
+        width: 100%;
+    }
+    .padding-site {
+        padding-left: 38px;
+        padding-right: 38px;
+    }
+    .slider {
+        height: 100%;
+        background-size: cover;
+        background-position: left;
+    }
+    .header {
+        padding-top: 23px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    img[alt='logo'] {
+        width: 150px;
+    }
+    .menu {
+        padding-right: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .slider-text {
+        padding-top: 83px;
+    }
+    .pagination {
+        position: none;
+        position: static;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .catalog {
+        height: 100%;
+    }
+    .catalog-item {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .item {
+        padding: 5px;
+    }
+    .exclusive-block {
+        width: 80%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: left;
+        float: none;
+        margin: auto;
+    }
+    .exclusive-content-block {
+        width: 35%;
+    }
+    .exclusive-p,
+    .catalog-2-p {
+        padding-top: 68px;
+    }
+    .exclusive-content {
+        width: 100%;
+        padding-top: 24px;
+    }
+    .trending-products {
+        height: 100%;
+        padding-bottom: 90px;
+    }
+    .trending-products-header {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .trending-products-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .catalog-2 {
+        display: block;
+    }
+    .left-block {
+        width: 60%;
+        margin: auto;
+    }
+    .right-block {
+        margin: auto;
+        margin-top: 30px;
+    }
+    .mobile-app {
+        height: 100%;
+        background-position: center;
+    }
+    .footer {
+        height: 100%;
+        width: 100%;
+    }
+    .footer-flex {
+        padding-top: 18px;
+        text-align: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .footer-1st {
+        margin-bottom: 20px;
+    }
+    .footer-2d {
+        margin-bottom: 20px;
+    }
+    .contact-us-row {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .adress-box {
+        margin: 10px;
+    }
+    .product-page-content {
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    .padding-site {
+        padding-left: 38px;
+        padding-right: 38px;
+    }
+    .slider-text {
+        padding-top: 83px;
+        text-align: center;
+    }
+    .slider-h2 {
+        padding-left: 0px;
+    }
+    .slider-content {
+        width: 90%;
+    }
+    .button {
+        margin: 23px auto;
+    }
+    .catalog-header {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .exclusive-block {
+        width: 80%;
+        height: 80%;
+        background-repeat: no-repeat;
+    }
+    .product-content {
+        font-size: 12px;
+    }
+}
